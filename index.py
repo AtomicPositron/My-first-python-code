@@ -53,7 +53,7 @@ def easy():
        num_two = str(random.randrange(num,inc))
        fact = num_one +" + "+num_two
        tries += 1
-       if tries % 3 == 0:
+       if tries % 10 == 0:
           inc += 10
           num += 10
           speed -= 0.5
